@@ -1,0 +1,22 @@
+
+// Screen Sizes
+$break-xxxsmall: 375px;
+$break-xxsmall: 414px;
+$break-xsmall: 480px;
+$break-small: 768px;
+$break-medium: 992px;
+$break-xmedium: 1020px;
+$break-large: 1200px;
+
+$font: (
+  color: #999,
+  family: ('Roboto', sans-serif),
+  size: 1.4em,
+  line-height: 1.4
+);
+
+$title: (
+	color: #333,
+	family: ('Open Sans Condensed', sans-serif),
+	line-height: 1.5
+);

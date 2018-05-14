@@ -1,0 +1,16 @@
+@import 'config.scss';
+
+html, body { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+html, body {
+  color: map-get($font, color);
+  font-family: map-get($font, family);
+  font-size: map-get($font, size);
+  line-height: map-get($font, line-height);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: map-get($title, color);
+	font-family: map-get($title, family);
+	line-height: map-get($title, line-height);
+}
